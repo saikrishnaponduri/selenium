@@ -1,6 +1,6 @@
 node ('slave1') {
 	stage ('SCM checkout'){
-		git "https://github.com/vistasunil/selenium.git"
+		git "https://github.com/saikrishnaponduri/selenium.git"
 		}		
 	stage ('Build'){
 		sh "mvn clean install"
